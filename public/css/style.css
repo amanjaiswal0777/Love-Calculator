@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    border: 1px solid black;
+    height: 7vh;
+
+}
+.head_headline{
+    display: inline-block;
+    width: 40%;
+    /* border: 3px solid pink; */
+    margin-top: 1%;
+}
+.head_headline span{
+    font-size:2rem;
+    margin-left: 10%;
+    
+}
+.sign_but{
+    display: inline;
+        margin: 15px 35px;
+}
+.theory{
+    border: 1px solid black;
+    margin: 59px 130px 20px 130px;
+}
+span {
+    content: "\2763";
+}
+#heart{
+    color: red;
+}
+.theory_heading{
+    border: 1px solid black;
+    
+    /* margin-left: 112px;
+    margin-top: 56px; */
+}
+.theory_heading span{
+    color: blueviolet;
+    font-size: 3rem;
+}
+.theory_text{
+    border: 1px solid;
+    width: 40%;
+    margin:10px;
+    letter-spacing: 1px;
+}
+.sign_but a{
+    text-decoration: none;
+    float: right;
+    margin: 4px 35px;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+.bar_len{
+    display: none;
+    width:600px;
+    height: 20px;
+   border: 1px solid black;
+}
+.input_body{
+    border: 1px solid black;
+    width: 54%;
+    display: inline-block;
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    position: relative;
+    left: 43%;
+    bottom: 198px;
+}
+
+.color{
+    width:0%;
+    height: 20px;
+    background-color: pink;
+}
+.color span{
+    text-align: center;
+}
+input{
+    margin: 10px;
+}
+p{
+    font-size: 2rem;
+}
+#but{
+    display: block;
+    margin: auto;
+    width: 19%;
+    border-radius: 11px;
+    border: none;
+    background-color: #e600e6;
+    height: 39px;
+    cursor: pointer;
+    color: white;
+}
+
+.reset_but{
+    display: none;
+}
+.display{
+    display: block;
+}
+.displaynone{
+    display: none;
+}
+.emoji{
+    display: none;
+}
+.normal,.happy,.extreme,.sad,.per{
+    display: none;
+    font-size: 3rem;
+}
+
+.display_emo{
+    display:inline-block;
+}
+.displaynonee{
+    display: none;
+}
+/* p{
+    display: inline;
+} */
+.name{
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    color: #0099ff;
+}
+input{
+    width: 20%;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+/* .input_display{
+    display: none;
+} */
+

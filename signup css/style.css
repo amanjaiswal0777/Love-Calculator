@@ -1,0 +1,29 @@
+#form-id{
+    border: 2px solid black;
+    width: 25%;
+    height: 60%;
+    margin: auto;
+}
+.textdetail{
+    /* border: 1px solid black; */
+    margin: 5px;
+}
+hr{
+    width: 95%;
+    margin: auto;
+}
+.btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.btn-width{
+    width: 80%;
+}
+ @media screen and (max-width:900px)
+ {
+    #form-id{
+        width: 62%;
+    }
+ }
+

@@ -1,0 +1,128 @@
+.signbtn{
+    margin-bottom: 50px;
+}
+#name{
+    margin: 2% 0px 0px 2%;
+    font-size: 2rem;
+    font-weight: 900;
+}
+#container{
+    width: 68%;
+    height: 100vh;
+    position: relative;
+    top: -6px;
+    margin: auto;
+    box-shadow: 3px 30px 23px 17px #c2c2d6;
+}
+body{
+    background-color: #F0F3F4;
+}
+#img1{
+    width: 25px;
+    height: 80%;
+    /* margin-left: 25px; */
+    position: relative;
+    left: 14px;
+}
+#img2{
+    width: 22px;
+    position: relative;
+    left: -22px;
+}
+.welcometext{
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+}
+
+
+#form-id{
+    width: 42%;
+    height: auto;
+    top: 18%;
+    position: relative;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px 8px 3px #c2c2d6;
+}
+#inputPassword3{
+    margin-left: 10px;
+    /* width: 88%; */
+}
+#textbody{
+    border: 1px solid black;
+    height: 30vh;
+    width: 40%;
+    margin: 10% 0 0 10%;
+    display: inline-block;
+}
+.ax{
+    color: white;
+    margin-left: 7%;
+    background-color: #001a66;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    text-align: center;
+    width: 14%;
+    display:block;
+}
+.ax:hover{
+    background-color:#99b3ff;
+}
+.forget{
+    text-align: center;
+    
+}
+.forget a{
+    text-decoration: none;
+}
+.navbar-nav{
+    width: 50%;
+}
+.textdetail{
+    /* border: 1px solid black; */
+    margin: 5px;
+    padding: 24px;
+}
+hr{
+    width: 95%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.btn-width{
+    width: 80%;
+}
+ @media screen and (max-width:900px)
+ {
+    #form-id{
+        width: 90%;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .welcometext{
+        font-size: 2.5rem;
+    }
+    #textbody{
+        border: 1px solid black;
+        height: 50vh;
+        width: 80%;
+        margin: 10% 0 0 10%;
+        display: inline-block;
+    }
+    .ax{
+        background-color: #6699ff
+    }
+    #inputPassword3{
+        margin-left: 0px;
+        width: 100%;
+    }
+ }
+

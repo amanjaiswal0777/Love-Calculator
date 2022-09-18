@@ -1,0 +1,163 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" text="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="head">
+      <div class="head_headline">
+        <span>Jaiswall Production</span>
+      </div>
+      <div class="sign_but">
+        <a href="/logout">Log Out</a>
+      </div>
+    </div>
+  </header>
+<section class="theory">
+  <div class="theory-body">
+    <div class="theory_heading">
+      <span>ca<span id="heart">&#10083;</span></span>
+    </div>
+    <div class="theory_text">
+      <ul>
+<span><li> You are curious about your love life, you can use our Love Calculator to get your love percentage. Enter your name and the name of your crush to instantly obtain compatibility results. So, calculate your love by our online Love Meter.</li></span>
+<br>
+<span><li>The Love Calculator provides a score from 0% to 100% that is meant to be an indication of a match in terms of love, based on the names of two people. The higher the percentage, the better the match.</li></span>
+</ul>
+</div>
+  </div>
+
+<div class="input_body">
+
+
+    <form action="/meterdone" method="post">
+
+    <span class="name"> Your name</span><input type="text" placeholder="type your name" id="firstname" name="firstname" >
+    <span class="name">Your crush`s name </span> <input type="text" placeholder="partners name" id="secondname" name="secondname">
+    
+    <p class="per"></p>
+    <span class="sad">&#128542;</span>
+    <span class="normal">&#128517;</span>
+    <span class="happy">&#128526; </span>
+    <span class="extreme">&#128525;</span>
+      
+    <div class="bar_len">
+      <div  class="color" id="col_id">
+        
+      </div>       
+    </div>
+    <input type="reset" value="create new" class="reset_but" >
+    
+    <button type="submit" id="but" >net</button>
+    </form>
+
+  </div>
+  </section>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jv.js"></script>
+   
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" text="text/css" href="css/style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #6699ff;">
+      <div class="container-fluid">
+        <a href="#"><img  id="img1"src="../css/a.png" alt=""></a>
+        
+        <button class="navbar-toggler start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link ax" aria-current="page" href="#">Home</a>
+            <a class="nav-link ax" href="contact">Contact Us</a>
+            <a class="nav-link ax" href="#">Pricing</a>
+            
+          </div>
+        </div>
+        <div class="logbut" >
+          <a href="/logout">Log Out</a>
+        </div>
+        <a href="#"><img  id="img2"src="j.png" alt=""></a>
+      </div>
+      
+    </nav>
+  </header>
+  <div id="container">
+<section class="theory">
+  <div class="theory-body">
+    <div class="theory_heading">
+      <span>AMAN JAISWAL<span id="heart">&#10083;</span></span>
+    </div>
+    <div class="theory_text">
+      <ul>
+<span><li> You are curious about your love life, you can use our Love Calculator to get your love percentage. </li></span>
+<br>
+<span><li>Enter your name and the name of your crush to instantly obtain compatibility results. So, calculate your love by our online Love Meter.</li></span>
+</ul>
+</div>
+  </div>
+
+<div class="input_body">
+
+
+    <form action="/meterdone" method="post">
+
+    <div id="first"><span class="name"> Your name</span><input type="text" placeholder="type here.." id="firstname" name="firstname" ></div>
+   <div id="second"> <span class="name">Your crush`s name </span> <input type="text" placeholder="type here.." id="secondname" name="secondname"></div>
+    
+   <div>
+    <p class="per"></p>
+    <span class="sad">&#128542;</span>
+    <span class="normal">&#128517;</span>
+    <span class="happy">&#128526; </span>
+    <span class="extreme">&#128525;</span>
+  </div>  
+    <div class="bar_len">
+      <div  class="color" id="col_id">
+    </div>     
+
+    </div>
+    <button type="submit" id="but" class="butt" >Find</button>
+      
+      <input type="reset" value="Try Again" class="reset_but" id="resetbutit" >
+    
+    
+    </form>
+
+  </div>
+  </section>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jv.js"></script>
+   
+</body>
+</html>

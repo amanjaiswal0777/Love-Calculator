@@ -1,0 +1,112 @@
+body{
+    background-color: #F0F3F4;
+}
+#img1{
+    width: 25px;
+    height: 80%;
+    margin-left: 25px;
+}
+.main-text span{
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: #ec0bad;
+    text-shadow: 2px 2px 4px #ec0bad;
+}
+.welcometext{
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+}
+#img2{
+    width: 25px;
+    height: 80%;
+    margin-left: 25px;
+}
+
+#form-id{
+    width: 21%;
+    height: 60%;
+    float: right;
+    margin: 5% 5% 0px 0px;
+    box-shadow: 2px 2px 8px 3px #c2c2d6;
+}
+#inputPassword3{
+    margin-left: 22px;
+    width: 88%;
+}
+#textbody{
+    /* border: 1px solid black; */
+    height: 30vh;
+    width: 40%;
+    margin: 10% 0 0 10%;
+    display: inline-block;
+}
+.ax{
+    color: white;
+    margin-left: 5%;
+    background-color: #001a66;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    text-align: center;
+    width: 14%;
+    display:block;
+}
+.ax:hover{
+    background-color:#99b3ff;
+}
+.forget{
+    text-align: center;
+    
+}
+.forget a{
+    text-decoration: none;
+}
+.navbar-nav{
+    width: 50%;
+}
+.textdetail{
+    /* border: 1px solid black; */
+    margin: 5px;
+}
+hr{
+    width: 95%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.btn-width{
+    width: 80%;
+}
+ @media screen and (max-width:900px)
+ {
+    #form-id{
+        width: 90%;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .welcometext{
+        font-size: 2.5rem;
+    }
+    #textbody{
+        /* border: 1px solid black; */
+        height: 24vh;
+        width: 80%;
+        margin: 10% 0 0 10%;
+        display: inline-block;
+    }
+    .ax{
+        background-color: #6699ff
+    }
+    #inputPassword3{
+        margin-left: 0px;
+        width: 100%;
+    }
+ }
+
