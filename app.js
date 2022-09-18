@@ -158,7 +158,7 @@ return res.send("user not exited");
 })
 app.post("/meterdone",async(req,res)=>{
     try{
-        // return res.send(req.cookies.jwt)
+        
         console.log("doen");
         const end=await User.findOne({phone:req.cookies.jwt});
         const meterdetail=new Next({
